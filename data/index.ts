@@ -87,7 +87,7 @@ export const experience = [
     {
     id: 1,
     date: "2025 - 2026",
-    position: "Desarrollador de Software",
+    position: "Frontend Developer",
     description: {
       details:
       "Gestionar, junto con mis compañeros de trabajo, el desarrollo completo del proyecto desde cero, incluyendo el desarrollo, las pruebas de calidad y el despliegue a producción",
@@ -104,7 +104,7 @@ export const experience = [
           hadWebSite: true,
           webSite: "https://ivolucion.com/",
           technologies: [
-            { name: "Angular", icon: angular.src },
+            { name: "React", icon: react.src },
             { name: "MUI", icon: mui.src },
             { name: "TypeScript", icon: typescript.src },
             { name: "Docker", icon: docker.src },
@@ -119,7 +119,7 @@ export const experience = [
   {
     id: 2,
     date: "2025",
-    position: "Desarrollador Full stack",
+    position: "Full stack Developer",
     description: {
       details:
         "En tecnoparque me encargue de liderar y desarrollar una gran variedad de proyectos para distintos clientes, me encarga de la comunicación y el desarrollo del proyecto",
@@ -136,8 +136,9 @@ export const experience = [
           hadWebSite: true,
           webSite: "https://contaflow.nativoweb.com/login",
           technologies: [
-            { name: "Nest.js", icon: nest.src },
-            { name: "Angular", icon: angular.src },
+            { name: "React", icon: react.src },
+            { name: "TypeScript", icon: typescript.src },
+            { name: "Django", icon: django.src },
             { name: "N8n", icon: n8n.src },
             { name: "MySQL", icon: mysql.src },
             { name: "Tailwind CSS", icon: tailwind.src },
@@ -147,7 +148,7 @@ export const experience = [
           ],
         },
         {
-          name: "Siprot IA (Desarrollo)",
+          name: "Siprot IA",
           description: [
             "Desarrolle el modelo LSTM para realizar predicciones multivariadas con sklearn de python",
             "Lidere el desarrollo del frontend y backend utilizando Vue y FastAPI, asegurando una interfaz intuitiva, eficiente y una buena estructuracion de las API's y de la seguridad con JWT",
@@ -156,8 +157,9 @@ export const experience = [
           hadWebSite: false,
           webSite: "#",
           technologies: [
+            { name: "React", icon: react.src },
+            { name: "JavaScript", icon: javascript.src },
             { name: "Django", icon: django.src },
-            { name: "Angular", icon: angular.src },
             { name: "PostgreSQL", icon: postgresql.src },
             { name: "Tailwind CSS", icon: tailwind.src },
             { name: "Git", icon: git.src },
@@ -166,7 +168,7 @@ export const experience = [
           ],
         },
         {
-          name: "Pets FLyer (Desarrollo)",
+          name: "Pets FLyer",
           description: [
             "Gestione el desarrollo completo del blockchain con solana para crear contratos inteligentes para la autenticidad de documentos",
             "Integre la conexión del blockchain con la interfaz de frontend utilizando buenas practicas",
@@ -175,8 +177,9 @@ export const experience = [
           hadWebSite: true,
           webSite: "https://petsflyer.com/",
           technologies: [
-            { name: "Solana", icon: solana.src },
             { name: "React", icon: react.src },
+            { name: "TypeScript", icon: typescript.src },
+            { name: "Solana", icon: solana.src },
             { name: "Tailwind CSS", icon: tailwind.src },
             { name: "Git", icon: git.src },
             { name: "Github", icon: github.src },
@@ -193,7 +196,7 @@ export const experienceFreelancer = [
   {
     id: 2,
     date: "2024 - 2025",
-    position: "Desarrollador Freelancer",
+    position: "Freelance",
     description: {
       details:
         "En mi paso como freelancer desarrolle y implemente dos proyectos para distintos clientes nacionales y internacionales",
@@ -209,8 +212,9 @@ export const experienceFreelancer = [
           hadWebSite: false,
           webSite: "#",
           technologies: [
+            { name: "React", icon: react.src },
+            { name: "TypeScript", icon: typescript.src },
             { name: "Spring Boot", icon: springboot.src },
-            { name: "Angular", icon: angular.src },
             { name: "Tailwind CSS", icon: tailwind.src },
             { name: "MySQL", icon: mysql.src },
             { name: "Git", icon: git.src },
@@ -229,9 +233,10 @@ export const experienceFreelancer = [
           hadWebSite: false,
           webSite: "#",
           technologies: [
-            { name: "Django", icon: django.src },
-            { name: "Angular", icon: angular.src },
+            { name: "React", icon: react.src },
+            { name: "TypeScript", icon: typescript.src },
             { name: "Tailwind CSS", icon: tailwind.src },
+            { name: "Django", icon: django.src },
             { name: "MySQL", icon: mysql.src },
             { name: "Git", icon: git.src },
             { name: "Github", icon: github.src },
@@ -287,18 +292,12 @@ export const projects = [
     { name: "HTML", image: html.src, },
     { name: "CSS", image: css.src, },
     { name: "Tailwind", image: tailwind.src, },
-    { name: "Vue", image: vue.src, },
-    { name: "Graphql", image: graphql.src, }
   ]
 
   export const backendSkills = [
-    { name: "Nest.js", image: nest.src, },
-    { name: "Django", image: django.src, },
     { name: "Python", image: python.src, },
-    { name: "Spring Boot", image: springboot.src },
-    { name: "PostgreSQL", image: postgresql.src, },
+    { name: "Django", image: django.src, },
+    { name: "Nest.js", image: nest.src, },
     { name: "MySQL", image: mysql.src, },
-    { name: "Firebase", image: firebase.src, },
     { name: "Docker", image: docker.src, },
-    { name: "AWS", image: aws.src, },
   ]
